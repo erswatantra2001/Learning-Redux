@@ -1,9 +1,11 @@
 import React from 'react'
+import "./App.css";
+import User from './components/User';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>This is the complete tutorial of Redux which is used to state management and memory management.</h1>
+      <User data = {{name:"swatantra gupta", age: 23}} />
     </div>
   )
 }

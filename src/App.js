@@ -1,11 +1,10 @@
 import React from 'react'
 import "./App.css";
-import User from './components/User';
-
+import HomeContainer from './containers/HomeContainer'
 const App = () => {
   return (
     <div className="App">
-      <User data = {{name:"swatantra gupta", age: 23}} />
+      <HomeContainer/>
     </div>
   )
 }
